@@ -736,6 +736,12 @@ section {
     color: var(--text-secondary);
     line-height: 1.7;
     margin: 0 0 20px 0;
+}
+.testimonial-quote p {
+    margin: 0 0 12px 0;
+}
+.testimonial-quote p:last-child {
+    margin-bottom: 0;
     font-style: italic;
 }
 
@@ -1693,13 +1699,43 @@ section.section-revealed {
     section {
         opacity: 1 !important;
         transform: none !important;
+        visibility: visible !important;
         padding: 50px 0;
     }
     .section-header {
         margin-bottom: 40px;
     }
+    .section-header,
+    .section-title,
+    .section-label {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    #resume.resume-section,
+    .resume-section {
+        opacity: 1 !important;
+        transform: none !important;
+        visibility: visible !important;
+        min-height: 200px;
+        display: block !important;
+    }
+    .resume-section .section-header,
+    .resume-section .section-title,
+    .resume-section .resume-content,
+    .resume-section .resume-category,
+    .resume-section .timeline {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
     .resume-section .section-header {
         padding-top: 0;
+    }
+    /* Force Skills (What I'm Good At) visible on mobile */
+    .skills-section,
+    .skills-section .section-header,
+    .skills-section .skills-content {
+        opacity: 1 !important;
+        visibility: visible !important;
     }
     .nav-menu {
         position: fixed;
@@ -1716,6 +1752,23 @@ section.section-revealed {
     
     .nav-menu.active {
         left: 0;
+    }
+    
+    /* Theme toggle on left so it doesn't overlap the hamburger menu */
+    .theme-toggle {
+        left: 16px;
+        right: auto;
+        top: 14px;
+        width: 44px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .theme-toggle:hover {
+        transform: scale(1.08);
+    }
+    /* Prevent logo from overlapping the theme toggle */
+    .nav-container {
+        padding-left: 68px;
     }
     
     .mobile-toggle {
@@ -1790,7 +1843,7 @@ section.section-revealed {
     }
     
     .nav-container {
-        padding: 15px 20px;
+        padding: 15px 20px 15px 68px;
     }
     
     .hero-section {
