@@ -129,11 +129,18 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe sections (exclude hero section from initial opacity)
+// On mobile, keep all sections visible to avoid content not showing (e.g. Resume/Experience)
+var isMobile = window.innerWidth <= 768;
 sections.forEach(section => {
     if (!section.classList.contains('hero-section')) {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(30px)';
-        section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+        if (!isMobile) {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+        } else {
+            section.style.opacity = '1';
+            section.style.transform = 'translateY(0)';
+        }
     }
     observer.observe(section);
 });
