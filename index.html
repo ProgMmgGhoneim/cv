@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moustafa Ghoneim - Senior Software Engineer</title>
+    <script>
+        (function() {
+            var t = localStorage.getItem('theme') || 'dark';
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle theme" title="Toggle Dark/Light Mode">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Moustafa Ghoneim</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#highlights" class="nav-link">Highlights</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="Moustafa Ghoneim_.pdf" download class="nav-link nav-link-cta"><i class="fas fa-download"></i> Download CV</a></li>
+            </ul>
+            <button class="mobile-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="animated-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">
+                    <span class="name-line">Moustafa</span>
+                    <span class="name-line highlight">Ghoneim</span>
+                </h1>
+                <p class="hero-title">Senior Software Engineer</p>
+                <p class="hero-description">Senior Software Engineer with extensive expertise in backend development, database architecture, and distributed systems. Specialized in FinTech and Real Estate domains, designing and implementing scalable, high-performance solutions using modern technologies. Committed to writing clean, maintainable code and following industry best practices to deliver robust software solutions that drive business value.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="Moustafa Ghoneim_.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/moustafa-ghoneim-1b4375159/" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MustafaGhoneim" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/ProgMmgGhoneim" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="1M0A9741.jpg" alt="Moustafa Ghoneim" class="profile-image">
+                    <div class="image-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">About Me</span>
+                <h2 class="section-title">Know Me More</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hi, I'm <span class="highlight">Moustafa Ghoneim</span></h3>
+                    <p class="lead">I'm a Senior Software Engineer specializing in backend development and distributed systems architecture, with deep domain expertise in FinTech and Real Estate. I design and build scalable, high-performance solutions that solve complex business challenges while maintaining code quality and system reliability.</p>
+                    <p>With over 6 years of professional experience in FinTech and Real Estate sectors, I've contributed to mission-critical projects at leading companies including SAK, Paymob, and M06. My FinTech experience includes building payment processing systems, payment gateways, installment solutions, and financial transaction management. In Real Estate, I've developed comprehensive platforms for property management, sales, and financial operations.</p>
+                    <p>I maintain a strong focus on continuous learning and staying current with emerging technologies and industry best practices. My approach combines technical excellence with pragmatic problem-solving, ensuring that solutions are not only well-architected but also maintainable and scalable for long-term success.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">Companies Worked</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="6">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Resume</span>
+                <h2 class="section-title">My Experience</h2>
+            </div>
+            <div class="resume-content">
+                <div class="resume-column full-width">
+                    <h3 class="resume-category">
+                        <i class="fas fa-briefcase"></i>
+                        Experience
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline-item timeline-item--company">
+                            <div class="timeline-date">Jan 2023 - Present</div>
+                            <div class="timeline-content">
+                                <h4 class="company-heading"><a href="https://www.getsak.com/" target="_blank" rel="noopener" class="company-link">SAK Company</a></h4>
+                                <p class="company-description">SAK operates a real estate technology platform that redefines property marketing and sales in the Kingdom of Saudi Arabia. The platform delivers integrated technical and financial solutions to streamline the buying experience and support developers, vendors, and end customers throughout the transaction lifecycle.</p>
+                                <div class="timeline-role">
+                                    <div class="timeline-role-meta">
+                                        <span class="timeline-role-date">Jan 2024 - Present</span>
+                                        <span class="timeline-role-title">Senior Software Engineer</span>
+                                    </div>
+                                    <p>Drive architecture and delivery of core platform capabilities; own business process automation and system integrations.</p>
+                                    <ul class="timeline-list">
+                                        <li>Designed and implemented business process automation and workflow orchestration using Camunda</li>
+                                        <li>Own end-to-end technical design for payment, installments, and transaction management systems</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline-role">
+                                    <div class="timeline-role-meta">
+                                        <span class="timeline-role-date">Jan 2023 - Dec 2023</span>
+                                        <span class="timeline-role-title">Senior Software Engineer</span>
+                                    </div>
+                                    <p>Delivered foundational payment and transaction management systems for the platform.</p>
+                                    <ul class="timeline-list">
+                                        <li>Built from scratch the online payment system for installments and tax management</li>
+                                        <li>Developed the management system for Developer and Vendor transactions and reporting</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item timeline-item--company">
+                            <div class="timeline-date">Jan 2020 - Aug 2022</div>
+                            <div class="timeline-content">
+                                <h4 class="company-heading"><a href="https://paymob.com/" target="_blank" rel="noopener" class="company-link">Paymob Company</a></h4>
+                                <div class="timeline-role">
+                                    <div class="timeline-role-meta">
+                                        <span class="timeline-role-date">Jan 2022 - Aug 2022</span>
+                                        <span class="timeline-role-title">Senior Software Engineer</span>
+                                    </div>
+                                    <p>Led design and integration of high-impact payment solutions and partner flows.</p>
+                                    <ul class="timeline-list">
+                                        <li>Led international team working across multiple countries including India, Pakistan, and many Arab countries</li>
+                                        <li>Integrated and shared in design Uber payment (Card, Wallet and as Aggregator)</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline-role">
+                                    <div class="timeline-role-meta">
+                                        <span class="timeline-role-date">Jan 2020 - Dec 2021</span>
+                                        <span class="timeline-role-title">Mid-level Software Engineer</span>
+                                    </div>
+                                    <p>Worked on payment infrastructure for digital assets via online store and through POS machine.</p>
+                                    <ul class="timeline-list">
+                                        <li>Implemented Terminal management system for POS transactions and reports</li>
+                                        <li>Designed and integrated Installments Payment methods (valU, Souhoola, Contact, Forsa, Shahry)</li>
+                                        <li>Revamped card payment from 3D secure to 3D2</li>
+                                        <li>Implemented Cash out feature for SMS reference payments</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">Sep 2019 - Jan 2020</div>
+                            <div class="timeline-content">
+                                <h4>Python Developer</h4>
+                                <span class="company">M06 Company</span>
+                                <p>Developed tools and automation scripts for web scraping and data analysis.</p>
+                                <ul class="timeline-list">
+                                    <li>Generated tools to allow users to go back in time and see what websites looked like in the past</li>
+                                    <li>Scraping and analysis cryptocurrency data and built prediction model for Bitcoin</li>
+                                    <li>Wrote scripts for auto login and sign in to sites like Gmail, Facebook</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AI Projects -->
+                <div class="resume-column full-width">
+                    <h3 class="resume-category">
+                        <i class="fas fa-robot"></i>
+                        AI Projects
+                    </h3>
+                    <div class="ai-projects-grid">
+                        <div class="project-card">
+                            <div class="project-icon"><i class="fas fa-comments"></i></div>
+                            <h4 class="project-title">Chat GPT</h4>
+                            <p class="project-description">Conversational AI application leveraging large language models for natural dialogue, context-aware responses, and integration with custom workflows.</p>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h4 class="project-title">Rega App</h4>
+                            <p class="project-description">AI-powered mobile application combining intelligent features with real-world use cases for enhanced user experience and automation.</p>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+                            <h4 class="project-title">Sentiment Analysis</h4>
+                            <p class="project-description">NLP-based sentiment analysis system for extracting and classifying opinions from text data, supporting decision-making and customer insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Education</span>
+                <h2 class="section-title">My Education</h2>
+            </div>
+            <div class="education-content">
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Sep 2014 - Jun 2018</div>
+                        <div class="timeline-content">
+                            <h4>Bachelor Degree in Computer and Information</h4>
+                            <span class="company">Menofia University</span>
+                            <p>Faculty of Computer and Information, Computer Science Department. Focused on software engineering, algorithms, data structures, and system design.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Ended Dec 2025</div>
+                        <div class="timeline-content">
+                            <h4>Generative AI Diploma</h4>
+                            <span class="company">Eyouth</span>
+                            <p>Comprehensive diploma program covering generative AI technologies, machine learning fundamentals, and practical applications of AI in software development.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Mar 2026 - Present</div>
+                        <div class="timeline-content">
+                            <h4>DevOps</h4>
+                            <span class="company">Course</span>
+                            <p>DevOps course covering CI/CD pipelines, containerization (Docker), orchestration, infrastructure as code, and cloud-native practices. Started March 2026.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-books-courses">
+                    <h3 class="resume-category">
+                        <i class="fas fa-book-open"></i>
+                        Books & Courses
+                    </h3>
+                    <div class="books-courses-wrapper">
+                        <div class="books-courses-category">
+                            <h4 class="books-courses-subtitle"><i class="fas fa-book"></i> Books</h4>
+                            <ul class="books-courses-list">
+                                <li><i class="fas fa-code"></i> Clean Code — Robert C. Martin</li>
+                                <li><i class="fas fa-sitemap"></i> Clean Architecture — Robert C. Martin</li>
+                                <li><i class="fas fa-project-diagram"></i> System Design Interview — Alex Xu</li>
+                                <li><i class="fas fa-sort-amount-down"></i> Grokking Algorithms — Aditya Bhargava</li>
+                                <li><i class="fas fa-database"></i> PostgreSQL 13 Cookbook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Skills</span>
+                <h2 class="section-title">What I'm Good At</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-columns">
+                    <!-- Technical Skills -->
+                    <div class="skills-column">
+                        <h3 class="resume-category">
+                            <i class="fas fa-code"></i>
+                            Technical Skills
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-label">Main Languages</div>
+                                <div class="skill-values">
+                                    <span class="skill-badge">Python</span>
+                                    <span class="skill-badge">Java</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">Frameworks</div>
+                                <div class="skill-values">
+                                    <span class="skill-badge">FastAPI</span>
+                                    <span class="skill-badge">Strapi</span>
+                                    <span class="skill-badge">Flask</span>
+                                    <span class="skill-badge">Django</span>
+                                    <span class="skill-badge">Java Servlet</span>
+                                    <span class="skill-badge">JSF</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">Databases</div>
+                                <div class="skill-values">
+                                    <span class="skill-badge">MySQL</span>
+                                    <span class="skill-badge">PostgreSQL</span>
+                                    <span class="skill-badge">MongoDB</span>
+                                    <span class="skill-badge">Redis</span>
+                                    <span class="skill-badge">Elasticsearch</span>
+                                    <span class="skill-badge">SQLite</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">Automation</div>
+                                <div class="skill-values">
+                                    <span class="skill-badge">Cypress</span>
+                                    <span class="skill-badge">GitHub Actions</span>
+                                    <span class="skill-badge">Jenkins</span>
+                                    <span class="skill-badge">Celery</span>
+                                    <span class="skill-badge">RQ</span>
+                                    <span class="skill-badge">Cron</span>
+                                    <span class="skill-badge">Selenium</span>
+                                    <span class="skill-badge">Camunda</span>
+                                    <span class="skill-badge">N8N</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">Server & DevOps</div>
+                                <div class="skill-values">
+                                    <span class="skill-badge">Linux</span>
+                                    <span class="skill-badge">Ubuntu</span>
+                                    <span class="skill-badge">Nginx</span>
+                                    <span class="skill-badge">Apache</span>
+                                    <span class="skill-badge">Cron</span>
+                                    <span class="skill-badge">Grafana</span>
+                                    <span class="skill-badge">ELK</span>
+                                    <span class="skill-badge">Datadog</span>
+                                    <span class="skill-badge">Sentry</span>
+                                    <span class="skill-badge">Docker</span>
+                                    <span class="skill-badge">CI/CD</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-label">Basic Knowledge</div>
+                                <div class="skill-values">
+                                    <span class="skill-badge">Data Structures</span>
+                                    <span class="skill-badge">Algorithms</span>
+                                    <span class="skill-badge">OOP</span>
+                                    <span class="skill-badge">SOLID Principles</span>
+                                    <span class="skill-badge">Design Patterns</span>
+                                    <span class="skill-badge">Problem Solving</span>
+                                    <span class="skill-badge">System Design</span>
+                                    <span class="skill-badge">API Design</span>
+                                    <span class="skill-badge">Concurrency</span>
+                                    <span class="skill-badge">Caching</span>
+                                    <span class="skill-badge">Database Modeling</span>
+                                    <span class="skill-badge">Code Review</span>
+                                    <span class="skill-badge">Refactoring</span>
+                                    <span class="skill-badge">Git</span>
+                                    <span class="skill-badge">Unit Testing</span>
+                                    <span class="skill-badge">Integration Testing</span>
+                                    <span class="skill-badge">Documentation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Soft Skills -->
+                    <div class="skills-column">
+                        <h3 class="resume-category">
+                            <i class="fas fa-user-tie"></i>
+                            Soft Skills
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-values">
+                                    <span class="skill-badge">Communication</span>
+                                    <span class="skill-badge">Active Listening</span>
+                                    <span class="skill-badge">Leadership</span>
+                                    <span class="skill-badge">Mentoring</span>
+                                    <span class="skill-badge">Problem Solving</span>
+                                    <span class="skill-badge">Critical Thinking</span>
+                                    <span class="skill-badge">Decision Making</span>
+                                    <span class="skill-badge">Teamwork</span>
+                                    <span class="skill-badge">Collaboration</span>
+                                    <span class="skill-badge">Time Management</span>
+                                    <span class="skill-badge">Prioritization</span>
+                                    <span class="skill-badge">Adaptability</span>
+                                    <span class="skill-badge">Accountability</span>
+                                    <span class="skill-badge">Conflict Resolution</span>
+                                    <span class="skill-badge">Continuous Learning</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">What Others Say</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <blockquote class="testimonial-quote">Moustafa is a strong technical lead who delivered critical payment integrations on time. Great to work with.</blockquote>
+                    <div class="testimonial-author">
+                        <span class="testimonial-name">— Colleague / Manager</span>
+                        <span class="testimonial-role">Role, Company</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote class="testimonial-quote">Add a short recommendation or quote from LinkedIn here. Replace with real testimonial when available.</blockquote>
+                    <div class="testimonial-author">
+                        <span class="testimonial-name">— Name</span>
+                        <span class="testimonial-role">Title, Company</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Achievements / Highlights Section -->
+    <section id="highlights" class="highlights-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Highlights</span>
+                <h2 class="section-title">Key Achievements</h2>
+            </div>
+            <ul class="highlights-list">
+                <li><i class="fas fa-check-circle"></i> Led international engineering team across India, Pakistan, and Arab markets at Paymob</li>
+                <li><i class="fas fa-check-circle"></i> Built and shipped payment and installment systems processing high-volume transactions in FinTech</li>
+                <li><i class="fas fa-check-circle"></i> Designed and delivered real estate platform capabilities (payments, workflows, vendor management) at SAK</li>
+                <li><i class="fas fa-check-circle"></i> Architected business process automation and workflow orchestration with Camunda</li>
+                <li><i class="fas fa-check-circle"></i> 6+ years backend experience in Python, Django/DRF, GraphQL, and microservices</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>progmmgghoneim@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+201024459684</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject (e.g. Job inquiry)" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Moustafa Ghoneim. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/moustafa-ghoneim-1b4375159/" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MustafaGhoneim" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/ProgMmgGhoneim" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
