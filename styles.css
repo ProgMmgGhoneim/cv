@@ -1689,6 +1689,17 @@ section.section-revealed {
 }
 
 @media (max-width: 768px) {
+    /* Ensure sections and headers are visible on mobile (override JS scroll animation) */
+    section {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    .section-header {
+        margin-bottom: 40px;
+    }
+    .resume-section .section-header {
+        padding-top: 0;
+    }
     .nav-menu {
         position: fixed;
         top: 70px;
